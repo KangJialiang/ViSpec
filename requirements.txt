@@ -105,7 +105,6 @@ latex2mathml==3.77.0
 lazy-import==0.2.2
 lit==16.0.6
 lxml==4.9.1
-ma-cli==1.2.3
 Markdown==3.4.4
 markdown-it-py==3.0.0
 markdown2==2.5.3
