@@ -3,8 +3,8 @@
 *Jialiang Kang, Han Shu, Wenshuo Li, Yingjie Zhai, Xinghao Chen*
 
 
-<a href="http://arxiv.org/abs/2509.15235"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv"></a>
-<a href="https://huggingface.co/collections/JLKang/vispec-68cd460c5766dc65e908909f"><img src="https://img.shields.io/static/v1?label=HuggingFace&message=Collection&color=yellow"></a>
+<a href="http://arxiv.org/abs/2509.15235"><img src="https://img.shields.io/static/v1?label=arXiv&message=Paper&color=red&logo=arxiv"></a>
+<a href="https://huggingface.co/collections/JLKang/vispec-68cd460c5766dc65e908909f"><img src="https://img.shields.io/static/v1?label=HuggingFace&message=Collection&color=yellow&logo=huggingface"></a>
 
 <p align="center">
   <img src="./figs/speedup_t0.png" alt="benchmark">
