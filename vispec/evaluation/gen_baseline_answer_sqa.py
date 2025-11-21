@@ -549,17 +549,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--shot_qids", type=list, default=None, help="Question indexes of shot examples"
     )
-    # parser.add_argument('--seed', type=int, default=10, help='random seed')
-    # GPT-3 settings
-    # parser.add_argument("--engine", type=str, default="text-davinci-002")
-    # parser.add_argument("--temperature", type=float, default=0.0)
-    # parser.add_argument('--max_tokens',
-    #                     type=int,
-    #                     default=512,
-    #                     help='The maximum number of tokens allowed for the generated answer.')
-    # parser.add_argument('--top_p', type=float, default=1.0)
-    # parser.add_argument("--frequency_penalty", type=float, default=0.0)
-    # parser.add_argument("--presence_penalty", type=float, default=0.0)
 
     args = parser.parse_args()
 

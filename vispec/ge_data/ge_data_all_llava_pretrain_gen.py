@@ -9,7 +9,7 @@ parser.add_argument("--gpu_index", type=int, nargs="+", default=[0])
 parser.add_argument("--outdir", type=str, default="outdir0")
 parser.add_argument("--max_new_tokens", type=int, default=1024)
 parser.add_argument("--model", type=str, default="llava-hf/llava-v1.6-vicuna-7b-hf")
-parser.add_argument("--temperature", type=float, default=0.0)
+parser.add_argument("--temperature", type=float, default=1.0)
 args = parser.parse_args()
 import os
 import random

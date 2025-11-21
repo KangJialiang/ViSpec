@@ -9,7 +9,7 @@ parser.add_argument("--gpu_index", type=int, nargs="+", default=[0])
 parser.add_argument("--outdir", type=str, default="outdir0")
 parser.add_argument("--max_new_tokens", type=int, default=1024)
 parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-VL-7B-Instruct")
-parser.add_argument("--temperature", type=float, default=0.0)
+parser.add_argument("--temperature", type=float, default=1.0)
 args = parser.parse_args()
 import os
 import random

@@ -9,7 +9,7 @@ parser.add_argument("--outdir", type=str, default="0")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=67999)
 parser.add_argument("--model", type=str, default="llava-hf/llava-v1.6-vicuna-7b-hf")
-parser.add_argument("--temperature", type=float, default=0.0)
+parser.add_argument("--temperature", type=float, default=1.0)
 parser.add_argument("--gpus_per_model", type=int, default=1)
 args = parser.parse_args()
 

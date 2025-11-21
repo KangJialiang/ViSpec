@@ -9,7 +9,7 @@ parser.add_argument("--outdir", type=str, default="0")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=67999)
 parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-VL-7B-Instruct")
-parser.add_argument("--temperature", type=float, default=0.0)
+parser.add_argument("--temperature", type=float, default=1.0)
 parser.add_argument("--gpus_per_model", type=float, default=1.0)
 args = parser.parse_args()
 
