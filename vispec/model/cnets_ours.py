@@ -936,8 +936,8 @@ class Model(nn.Module):
                         ],
                     ]
                     t_m += [
-                        eye_m[img_id_start : img_id_start + h_s[0].shape[0], :],
-                        eye_m[img_id_end - h_s[1].shape[0] : img_id_end, :],
+                        eye_m[img_id_start : img_id_start + h_s[-2].shape[0], :],
+                        eye_m[img_id_end - h_s[-1].shape[0] : img_id_end, :],
                     ]
                     img_id_start = img_id_end
 
