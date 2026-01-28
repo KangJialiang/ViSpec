@@ -171,9 +171,9 @@ python -m vispec.evaluation.gen_spec_answer_xxx \
 
 **Specific Parameters**:
 
-  - `--depth`: The depth for speculative decoding.
-  - `--top-k`: The width for candidate token selection.
-  - `--total-token`: The total number of tokens to generate for the evaluation.
+  - `--depth`: The depth of draft token tree.
+  - `--top-k`: The width of draft token tree.
+  - `--total-token`: Number of draft tokens selected from the draft tree to be verified by target model.
   - `--num-q`: Number of query vectors; must be consistent with the training configuration (e.g., `2`).
 
 ## Evaluation Results
